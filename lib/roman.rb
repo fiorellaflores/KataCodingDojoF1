@@ -12,7 +12,7 @@ class Roman
 			return "IV"
 			when 5
 			return "V"
-		  when 6..7
+		  when 6..8
 		   num = "V"
 		    number = number - 5
 				number.times do
