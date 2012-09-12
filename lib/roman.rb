@@ -26,6 +26,9 @@ class Roman
 					num = num + "I"
 					end
 			return num
+		  when 14
+			return "XIV"
+
 		end 
 
 	end

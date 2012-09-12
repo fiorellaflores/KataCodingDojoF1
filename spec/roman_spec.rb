@@ -58,4 +58,8 @@ describe Roman do
     it 'should convert 13 to XIII' do
   result = @roman.convert(13).must_equal 'XIII'  #act
   end 
+
+    it 'should convert 14 to XIV' do
+  result = @roman.convert(14).must_equal 'XIV'  #act
+  end 
 end
