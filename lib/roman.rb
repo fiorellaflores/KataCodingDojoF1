@@ -10,7 +10,8 @@ class Roman
 		return num
 		when 4
 		return "IV"
-	
+		when 5
+		return "V"
 		end 
 
 	end

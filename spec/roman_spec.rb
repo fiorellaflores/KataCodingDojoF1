@@ -7,8 +7,6 @@ describe Roman do
    @roman = Roman.new
    end
 
-
-
    it 'should convert 1 to I' do
 	result = @roman.convert(1) #act
 	result.must_equal 'I' #assert
