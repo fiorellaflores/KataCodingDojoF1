@@ -8,6 +8,9 @@ class Roman
 				num = num + "I"
 				end
 		return num
+		when 4
+		return "IV"
+	
 		end 
 
 	end
