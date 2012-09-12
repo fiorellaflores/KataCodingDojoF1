@@ -35,6 +35,8 @@ class Roman
 					num = num + "I"
 					end
 			return num
+		when 19
+			return "XIX"
 		end 
 
 	end
