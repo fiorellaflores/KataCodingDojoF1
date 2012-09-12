@@ -28,7 +28,7 @@ class Roman
 			return num
 		  when 14
 			return "XIV"
-		  when 15..17
+		  when 15..18
 				 num = "XV"
 		    number = number - 15
 				number.times do
