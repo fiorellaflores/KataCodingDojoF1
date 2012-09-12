@@ -83,6 +83,9 @@ describe Roman do
   result = @roman.convert(19).must_equal 'XIX'  #act
   end
 
+  it 'should convert 20 to XX' do
+  result = @roman.convert(20).must_equal 'XX'  #act
+  end
 
 end
 

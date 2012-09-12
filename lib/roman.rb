@@ -35,9 +35,17 @@ class Roman
 					num = num + "I"
 					end
 			return num
-		when 19
+			when 19
 			return "XIX"
-		end 
+			when 20
+				 num = "XX"
+		    number = number - 20
+				number.times do
+					num = num + "I"
+					end
+			return num
+
+			end 
 
 	end
 end
