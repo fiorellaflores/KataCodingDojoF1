@@ -10,6 +10,12 @@ describe Roman do
 	result.must_equal 'I' #assert
   end
   
+     it 'should convert 2 to II' do
+    roman = Roman.new #arrange
+  result = roman.convert(2) #act
+  result.must_equal 'II' #assert
+  end
+  
    
 
 end
