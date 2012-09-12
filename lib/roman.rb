@@ -28,7 +28,13 @@ class Roman
 			return num
 		  when 14
 			return "XIV"
-
+		  when 15
+				 num = "XV"
+		    number = number - 15
+				number.times do
+					num = num + "I"
+					end
+			return num
 		end 
 
 	end
