@@ -47,4 +47,8 @@ describe Roman do
   result = @roman.convert(10).must_equal 'X'  #act
   end
 
+     it 'should convert 10 to XI' do
+  result = @roman.convert(11).must_equal 'XI'  #act
+  end
+
 end

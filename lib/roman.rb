@@ -19,8 +19,13 @@ class Roman
 			return num
 			when 9
 			return "IX"
-			when 10
-			return "X"
+			when 10..11
+				 num = "X"
+		    number = number - 10
+				number.times do
+					num = num + "I"
+					end
+			return num
 		end 
 
 	end
