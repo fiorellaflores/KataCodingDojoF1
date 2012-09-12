@@ -24,10 +24,14 @@ describe Roman do
   result.must_equal 'III' #assert
   end
 
-     it 'should convert 4 to IV' do
+    it 'should convert 4 to IV' do
   result = @roman.convert 4 #act
   result.must_equal 'IV' #assert
   end
   
+    it 'should convert 5 to V' do
+  result = @roman.convert 5 #act
+  result.must_equal 'V' #assert
+  end
 
 end
