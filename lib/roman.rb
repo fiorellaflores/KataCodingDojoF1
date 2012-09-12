@@ -6,7 +6,7 @@ class Roman
 				num = ""
 				number.times do
 					num = num + "I"
-										end
+					end
 			return num
 			when 4
 			return "IV"
@@ -19,6 +19,8 @@ class Roman
 			return num
 			when 9
 			return "IX"
+			when 10
+			return "X"
 		end 
 
 	end
