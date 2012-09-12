@@ -70,6 +70,10 @@ describe Roman do
   it 'should convert 16 to XVI' do
   result = @roman.convert(16).must_equal 'XVI'  #act
   end 
+
+    it 'should convert 17 to XVII' do
+  result = @roman.convert(17).must_equal 'XVII'  #act
+  end 
 end
 
 
