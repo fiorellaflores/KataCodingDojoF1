@@ -19,7 +19,7 @@ class Roman
 			return num
 			when 9
 			return "IX"
-			when 10..11
+			when 10..12
 				 num = "X"
 		    number = number - 10
 				number.times do
