@@ -47,4 +47,9 @@ describe Roman do
   result.must_equal 'VIII' #assert
   end
 
+    it 'should convert 9 to IX' do
+  result = @roman.convert 9 #act
+  result.must_equal 'IX' #assert
+  end
+
 end
