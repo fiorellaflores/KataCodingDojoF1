@@ -32,4 +32,9 @@ describe Roman do
   result.must_equal 'V' #assert
   end
 
+    it 'should convert 6 to VI' do
+  result = @roman.convert 6 #act
+  result.must_equal 'VI' #assert
+  end
+
 end
